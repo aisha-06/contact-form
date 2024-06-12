@@ -2,7 +2,8 @@ body
 { 
     .grid1 {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto auto ;
+        
         
     }
     .g1{
@@ -10,7 +11,60 @@ body
        grid-column-end: 3;
 
        grid-row-start: 1;
-       grid-row-end: 3;
+       grid-row-end: 5;
     }
+    .g3
+    {
+     grid-column-start: 3;
+     grid-column-end: 5;
+
+     grid-row-start: 2;
+     grid-row-end: 3;
+    }
+    .g4
+    {
+     grid-column-start: 4;
+     grid-column-end: 6;
+     
+     grid-row-start: 1;
+     grid-row-end: 5;
+     width: 400;
+     
+     
+    }
+    .flex-container
+    {
+        display: flex;
+        justify-content: center;
+        
+          
+        
+    }
+     .flex-item1
+     {
+        /* background-color: cadetblue; */
+        padding: 30px;
+      
+        
+        
+     }
+
+     .flex-item2
+     {
+        padding: 30px;
+     }
+     .flex-item3
+     {
+        padding: 30px;
+        
+     }
+      .btn
+      {
+       width: 180px;
+        border-radius: 10rex;
+        border-color: white;
+        background: rgb(249, 208, 4);
+      }
+    
 
 }
