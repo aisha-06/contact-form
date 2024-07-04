@@ -1,5 +1,4 @@
-body
-{ 
+
     .grid1 {
         display: grid;
         grid-template-columns: auto auto auto ;  
@@ -62,39 +61,55 @@ body
     {
         display: flex;
         justify-content: center;
+        margin-left: 100px;
         
           
         
     }
-     .flex-item1
-     {
-        /* background-color: cadetblue; */
-        padding: 30px;
-      
-        
-        
-     }
+     
 
-     .flex-item2
+     .flex-item2, .flex-item3,.flex-item1
      {
         padding: 30px;
      }
-     .flex-item3
-     {
-        padding: 30px;
-        
-     }
-      .btn
+     
+    .btn
       {
        width: 180px;
+       height: 50px;
         border-radius: 10rex;
         border-color: white;
         background-color: darkgray;
+        margin-left: 140px;
       }
     
-      .tb
+    .circle-btn
+    {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+    
+    .bg
+    {
+      background-color: black;
+      color: white;
+    }
+      
+      
+      .contact-text
       {
-         border-color:lavender;
-         border-radius: 50;
+         
+         margin-left: 630px;
       }
-}
+      .info-div
+      {
+         margin-left:540px ;
+      }
+
+      .input-info
+      {
+         background-color: black ;
+         border-color: gray;
+         font-size: 23px;
+      }

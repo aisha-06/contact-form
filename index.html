@@ -12,51 +12,70 @@
 
     </head>
 
-    <body bgcolor="aliceblue" >
-        <center>
-        <table border="10" class="tb" >
-            <td>
-    <h1 align="center"> CONTACT US VIA</h1>
-    
+    <body class="bg" >
+        <form action="index.html" method="post" onsubmit="return validate()">
+       <div class="container"> 
+             
+            <h1 class="contact-text"> CONTACT US VIA</h1>
+           <div class="flex-container">
+               <div class="flex-item1">
+                <button class="circle-btn">
 
-        <div class="flex-container">
-            <div class="flex-item1"><i class="fa-solid fa-location-dot" ></i>
-                
-             <br>
-             Adresss:
-             <br>
-             Evergreen Tower,<br>
-             Nowhere Road, <br> NYC
-    
+                    <i class="fa-solid fa-location-dot" style="font-size: x-large;" ></i>             
+                </button>
+                <br>
+                Adresss:
+                <br>
+                Evergreen Tower,<br>
+                 Nowhere Road, <br> NYC
+             </div>
+               <div class="flex-item2">
+                <button class="circle-btn">
+                    <i class="fa-solid fa-phone-volume" style="font-size: x-large;"></i>
+
+                </button>
+                   
+                   <h4 style="line-height: 0;">Phone:</h4>
+                   
+                    <h4 style="line-height: 0;">+212986094838 </h4>       
+               </div>
+               <div class="flex-item3">
+                <button class="circle-btn" >
+
+                    <i class="fa-solid fa-envelope"style="font-size: x-large;" ></i> 
+                </button>
+                   <h4 style="line-height: 0;">Email-ID:</h4>
+                   
+                  <h5 style="line-height: 0;">atyour_service23@gmail.com</h5> 
+               </div>
             </div>
-            <div class="flex-item2"> <i class="fa-solid fa-phone-volume" ></i>
-                <br> +212986094838
-                 
-            </div>
-            <div class="flex-item3">
-                <i class="fa-solid fa-envelope"></i> <br>
-                atyour_service23@gmail.com
-    
-    
-            </div>
+            
+           <h2 class="contact-text"> GET IN TOUCH WITH US</h2> <br>
+                     <div class="info-div">
+                         <input type="text" id="name" name="name" placeholder="Name" size="40" class="input-info" > <br>
+                         <span id="uname" class="text-danger font-weight-bold"></span><br>
+
+                         <input type="email" name="email-id" id="email-id" placeholder="E-mail" size="40"  class="input-info" ><br>
+                         <span id="em" class="text-danger font-weight-bold"></span><br>
+
+                         <input type="text" id="sub" name="sub" placeholder="Subject" size="40"  class="input-info" > <br> 
+
+                         <input type="password" id="pass" name="password1" placeholder="Password" size="40"   class="input-info"> <br>
+                         <span id="pass1" class="text-danger font-weight-bold"></span><br><br>
+
+                         <input type="password" id="pass" name="password2" placeholder="Confirm Password" size="40" class="input-info" > <br>
+                         <span id="pass2" class="text-danger font-weight-bold"></span><br><br>
+
+                         <input type="number" id="no" name="no" placeholder="Mobile No" size="60"  class="input-info" ><br>
+                         <span id="mobileno" class="text-danger font-weight-bold"></span><br><br>
+
+                         <textarea name="msg" id="msg" rows="3"  placeholder="Message"  style="font-size: 45px;" class="input-info"  > 
+                         </textarea> <br> <br>
+                         <input type="submit" id="btn" class="btn"></input>  
+                     </div>
         </div>
-     
-                  <h2 align="center">
-                      GET IN TOUCH WITH US
-                  </h2> <br>
-                  <center>
-                      <input type="text" id="name" name="name" placeholder="NAME" > <br><br>
-                      <input type="email" name="email-id" id="emamil-id" placeholder="EMAIL"><br><br>
-                      <input type="text" id="sub" name="sub" placeholder="SUBJECT"> <br> <br>
-                      <textarea name="msg" id="msg" rows="5"  placeholder="MESSAGE" > 
-                      </textarea> <br> <br>
-                      <button class="btn" >
-                      SUBMIT
-                      </button>
-                  </center>
-              </td>
-          
-            </table>
-        </center>
+    </form>
+        <script type="text/javascript" src="script.js">
+        </script>
     </body>
 </html>
