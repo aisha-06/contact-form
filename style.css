@@ -114,7 +114,12 @@
          font-size: 23px;
          color: white;
       }
-      #uname,#em,#pass1 ,#pass2,#mobileno
+      #uname,#pass1 ,#pass2,#no
+      {
+         color: red;
+         font-weight: bold;
+      }
+      #em
       {
          color: red;
          font-weight: bold;
