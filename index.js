@@ -8,8 +8,8 @@ function validate()
 
     console.log('name')
 
-    if(name==null|| name=="")
-    {
+    if ((name==null)|| ( name==""))
+    {    
          document.getElementById('uname').innerHTML="FILL THE USERNAME FIELD!";
          return false;
     }
@@ -18,4 +18,6 @@ function validate()
         document.getElementById('uname').innerHTML ="";
         	return false;
     }
+    if((name))
+    
 }

@@ -73,14 +73,14 @@
         padding: 30px;
      }
      
-    .btn
+    #btn-last
       {
        width: 180px;
        height: 50px;
         border-radius: 10rex;
         border-color: white;
         background-color: darkgray;
-        margin-left: 140px;
+        margin-left: 700px;
       }
     
     .circle-btn
@@ -112,4 +112,10 @@
          background-color: black ;
          border-color: gray;
          font-size: 23px;
+         color: white;
+      }
+      #uname,#em,#pass1 ,#pass2,#mobileno
+      {
+         color: red;
+         font-weight: bold;
       }
