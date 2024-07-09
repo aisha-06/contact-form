@@ -62,7 +62,7 @@ function validate()
    }
    if(password1.value==null || password1.value=="")
    {
-     document.getElementById('passs1').innerHTML="FILL THE PASSWORD FIELD!";
+     document.getElementById('pass1').innerHTML="FILL THE PASSWORD FIELD!";
      return false;
 
    }
